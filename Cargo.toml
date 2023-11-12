@@ -1,0 +1,8 @@
+
+# Same name and version as the idna crate are required
+# in order for patch to work.
+
+[package]
+name = "idna"
+version = "0.4.0"
+edition = "2021"

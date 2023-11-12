@@ -1,0 +1,10 @@
+[package]
+name = "url-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.url]
+
+# Replaces public idna dependency with local no-idna crate
+[patch.crates-io]
+idna = {git = 'https://github.com/valenting/no-idna.git'}
